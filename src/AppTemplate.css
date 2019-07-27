@@ -1,0 +1,32 @@
+.app-template {
+  display: flex;
+}
+
+.post,
+.counter {
+  flex: 1;
+  padding: 1rem;
+}
+
+.post {
+  background: #f1f3f5;
+}
+
+.counter {
+  background: #f8f9fa;
+}
+
+h1 {
+  text-align: center;
+}
+
+input {
+  height: 20px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+textarea {
+  height: 150px;
+  width: 100%;
+}
